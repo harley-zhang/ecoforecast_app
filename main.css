@@ -878,6 +878,10 @@ body {
 	font-family: Roboto;
 	font-size: 1em
 }
+
+.page__meta a:hover {
+	text-decoration: underline
+}
 @media (min-width: 50em) {
 	.page__hero--overlay .page__meta {
 		max-width: 800px;
@@ -885,11 +889,16 @@ body {
 }
 
 .page__meta p {
-	margin: 0
+	margin: 0;
+	text-decoration: none
 }
 
 .page__meta a {
-	color: inherit
+	color: inherit;
+	text-decoration: none
+}
+.page__meta a:hover {
+	text-decoration: underline
 }
 
 .page__meta-title {
@@ -1234,7 +1243,7 @@ body {
 	a,
 	a:visited {
 		color: #000;
-		text-decoration: underline;
+		/*text-decoration: underline;*/
 		word-wrap: break-word
 	}
 	img {
