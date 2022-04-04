@@ -26,6 +26,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- For all browsers -->
       <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/5.0.0/introjs.min.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
       <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -35,6 +36,28 @@
       <!-- end custom head snippets -->
    </head>
    <body>
-      <embed src="https://harleyzhang.users.earthengine.app/view/current-sagebrush-biomass-test-app" style="width:100%; height: 100vh;">
+      <div class="holder">
+         <div class="bar"></div>
+         <object id="app" data="https://harleyzhang.users.earthengine.app/view/current-sagebrush-biomass-test-app" ></object>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/5.0.0/intro.min.js"></script>
+      <!--<script src="script.js"></script>-->
+      <!--<script>
+
+const iframe = document.getElementById("app").contentDocument;
+const element = iframe.getElementById("ui-label")[0];
+
+introJs().setOptions({
+  steps: [{
+    title: 'Welcome',
+    intro: 'Hello World! 👋'
+  },
+  {
+    element: element,
+    intro: 'Hello World! 👋'
+  }
+  ]
+}).start();
+      </script>-->
    </body>
 </html>
