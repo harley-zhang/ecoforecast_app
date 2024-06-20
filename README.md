@@ -11,6 +11,10 @@
 
 [EcoForecast](https://ecoforecast.info/) is a web application that allows users to visualize and analyze future ecological changes in the sagebrush habitat across the United States. The app utilizes data generated using the [STEPWAT2 simulation model](https://github.com/DrylandEcology/STEPWAT2) and is built using [Google Earth Engine (GEE) JavaScript API](https://developers.google.com/earth-engine) for geospatial analysis and remote sensing. 
 
+To clone this repository:
+
+    git clone https://github.com/harley-zhang/EcoForecast_App
+
 <br>
 
 
