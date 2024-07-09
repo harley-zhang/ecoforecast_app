@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         blue: '#1a73e8',
         grey: '#444',
+        greylight: '#fafafa',
       },
       fontFamily: {
         roboto: ["Roboto"],
