@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import useMediaQuery from '../hooks/useMediaQuery'; // Adjust path as needed
 
 const LaunchApp = () => {
-    const [showPopup, setShowPopup] = useState(true);
     const isLargeEnough = useMediaQuery("(min-width: 1109px) and (min-height: 468px)");
 
     return (
-        <div>
+        <div className="bg-greylight">
             <div className={`relative h-screen w-screen overflow-hidden ${!isLargeEnough ? 'hidden' : ''}`}>
                 <embed
                     src="https://harleyzhang.users.earthengine.app/view/current-sagebrush-biomass-test-app"
@@ -19,10 +18,10 @@ const LaunchApp = () => {
                     <Link to="/" className="absolute top-3 left-5 w-[12.5rem] h-11 m-0 p-0"></Link>
                 )}
             </div>
-            {showPopup && !isLargeEnough && (
+            {!isLargeEnough && (
                 <div className="relative h-screen w-screen overflow-hidden">
                     <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-lightgrey z-50">
-                        <div className="bg-greylight p-6 m-5 rounded border border-[#e0e0e0] text-center font-roboto">
+                        <div className="bg-greylight p-6 m-5 rounded border border-[#e0e0e0] text-grey text-center font-roboto">
                             <p>EcoForecast requires a minimum screen size of 1109×468px.</p>
                         </div>
                     </div>
