@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import useMediaQuery from '../hooks/useMediaQuery'; // Adjust path as needed
 
@@ -15,7 +14,7 @@ const LaunchApp = () => {
                 />
                 <div className="absolute top-0 right-0 w-72 h-14 bg-greylight z-50"></div>
                 {isLargeEnough && (
-                    <Link to="/" className="absolute top-3 left-5 w-[12.5rem] h-11 m-0 p-0"></Link>
+                    <Link to="/" className="absolute top-3 left-5 w-[12rem] h-11 m-0 p-0"></Link>
                 )}
             </div>
             {!isLargeEnough && (

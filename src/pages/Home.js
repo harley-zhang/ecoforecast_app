@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "../scenes/Navbar";
 import Landing from "../scenes/Landing";
 import Info from "../scenes/Info";

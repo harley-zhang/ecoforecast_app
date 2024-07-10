@@ -1,4 +1,3 @@
-import React from 'react';
 import yale from '../assets/logos/yale.png';
 import usgs from '../assets/logos/usgs.png';
 import marshall from '../assets/logos/marshall.png';
