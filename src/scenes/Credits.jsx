@@ -49,7 +49,7 @@ const Credits = () => {
     return (
         <div className="mt-20">
             <div className="sm:mb-10">
-                <h2 className="text-center text-lg sm:text-xl mb-5 text-grey font-product-sans-regular">Supported By</h2>
+                <h2 className="text-center text-lg sm:text-xl mb-7 text-grey font-product-sans-regular">Made Possible By</h2>
                 <div className="flex flex-wrap justify-center items-center px-5 md:px-0 pb-6">
                     {supportLogos.map((logo, index) => (
                         <a
@@ -65,7 +65,7 @@ const Credits = () => {
                 </div>
             </div>
             <div>
-                <h2 className="text-center text-lg sm:text-xl mb-5 text-grey font-product-sans-regular">Powered By</h2>
+                <h2 className="text-center text-lg sm:text-xl mb-7 text-grey font-product-sans-regular">Powered By</h2>
                 <div className="flex flex-wrap justify-center items-center px-5 md:px-0 pb-6">
                     {poweredLogos.map((logo, index) => (
                         <a
@@ -75,7 +75,7 @@ const Credits = () => {
                             rel="noopener noreferrer"
                             className={`opacity-80 px-10 md:px-16 pb-20 sm:py-0 ${isAboveSmallScreens ? "" : "min-w-[50%]"}`}
                         >
-                            <img src={logo.url} alt={logo.alt} className="w-28 md:w-32 mx-auto" />
+                            <img src={logo.url} alt={logo.alt} className="w-20 xs:w-28 sm:w-32 mx-auto" />
                         </a>
                     ))}
                 </div>
