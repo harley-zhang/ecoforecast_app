@@ -48,7 +48,7 @@ const Credits = () => {
     return (
         <div className="mt-20">
             <div className="sm:mb-10">
-                <h2 className="text-center text-lg sm:text-xl mb-7 text-grey font-product-sans-regular">Made Possible By</h2>
+                <h2 className="text-center text-lg sm:text-xl mb-7 text-greydark font-product-sans-regular">Made Possible By</h2>
                 <div className="flex flex-wrap justify-center items-center px-5 md:px-0 pb-6">
                     {supportLogos.map((logo, index) => (
                         <a
@@ -64,7 +64,7 @@ const Credits = () => {
                 </div>
             </div>
             <div>
-                <h2 className="text-center text-lg sm:text-xl mb-7 text-grey font-product-sans-regular">Powered By</h2>
+                <h2 className="text-center text-lg sm:text-xl mb-7 text-greydark font-product-sans-regular">Powered By</h2>
                 <div className="flex flex-wrap justify-center items-center px-5 md:px-0 pb-6">
                     {poweredLogos.map((logo, index) => (
                         <a

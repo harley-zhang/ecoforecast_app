@@ -9,7 +9,9 @@ function Home() {
     <div className="app bg-grey">
       <Navbar />
       <Landing />
+      <Info />
       <Credits />
+      <Footer />
     </div>
   );
 }
