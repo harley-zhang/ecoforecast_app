@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import useMediaQuery from '../hooks/useMediaQuery'; // Adjust path as needed
 
 const LaunchApp = () => {
@@ -14,6 +15,9 @@ const LaunchApp = () => {
                     className="h-full w-full border-0"
                 />
                 <div className="absolute top-0 right-0 w-72 h-14 bg-greylight z-50"></div>
+                {isLargeEnough && (
+                    <Link to="/" className="absolute top-3 left-5 w-[12.5rem] h-11 m-0 p-0"></Link>
+                )}
             </div>
             {showPopup && !isLargeEnough && (
                 <div className="relative h-screen w-screen overflow-hidden">
