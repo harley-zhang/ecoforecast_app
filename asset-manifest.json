@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ecoforecast_app/static/css/main.cf38db54.css",
+    "main.js": "/ecoforecast_app/static/js/main.68779681.js",
+    "static/media/landing-bg.png": "/ecoforecast_app/static/media/landing-bg.2821892b290568e42b8e.png",
+    "static/media/field-research.png": "/ecoforecast_app/static/media/field-research.28d92ed850a9110ed9c5.png",
+    "static/media/satellite.png": "/ecoforecast_app/static/media/satellite.f2378af154656bc011bf.png",
+    "static/media/sagebrush.png": "/ecoforecast_app/static/media/sagebrush.d85dab5a9ec769aa9c88.png",
+    "static/media/logo-shadow-notext.png": "/ecoforecast_app/static/media/logo-shadow-notext.9454bd77d3a007c656da.png",
+    "static/media/ProductSans-Regular.woff": "/ecoforecast_app/static/media/ProductSans-Regular.0a489488ab3cb2eb11f9.woff",
+    "static/media/ProductSans-BoldItalic.woff": "/ecoforecast_app/static/media/ProductSans-BoldItalic.0d6403dc3af35281bccb.woff",
+    "static/media/ProductSans-MediumItalic.woff": "/ecoforecast_app/static/media/ProductSans-MediumItalic.11a5778a044e561c4898.woff",
+    "static/media/ProductSans-LightItalic.woff": "/ecoforecast_app/static/media/ProductSans-LightItalic.64cab007f3bad63fb798.woff",
+    "static/media/ProductSans-ThinItalic.woff": "/ecoforecast_app/static/media/ProductSans-ThinItalic.893736ad49bd70828551.woff",
+    "static/media/ProductSans-BlackItalic.woff": "/ecoforecast_app/static/media/ProductSans-BlackItalic.1794539b9855fe02bc51.woff",
+    "static/media/ProductSans-Italic.woff": "/ecoforecast_app/static/media/ProductSans-Italic.8c3afe1fc5112ad57bfe.woff",
+    "static/media/ProductSans-Medium.woff": "/ecoforecast_app/static/media/ProductSans-Medium.70f0942277dd5cd83980.woff",
+    "static/media/ProductSans-Light.woff": "/ecoforecast_app/static/media/ProductSans-Light.cabe32b8f11068b34404.woff",
+    "static/media/ProductSans-Bold.woff": "/ecoforecast_app/static/media/ProductSans-Bold.0e179021d036d6dacfba.woff",
+    "static/media/ProductSans-Thin.woff": "/ecoforecast_app/static/media/ProductSans-Thin.9484e2dd5f52aa496d2d.woff",
+    "static/media/ProductSans-Black.woff": "/ecoforecast_app/static/media/ProductSans-Black.3999b85c1721ca079a59.woff",
+    "static/media/marshall.png": "/ecoforecast_app/static/media/marshall.824655af4a19130da4f3.png",
+    "static/media/utah-state.png": "/ecoforecast_app/static/media/utah-state.a9a504a9f72c5cdbaa50.png",
+    "static/media/google-earth-engine.png": "/ecoforecast_app/static/media/google-earth-engine.322af1300b4aab68579e.png",
+    "static/media/usgs.png": "/ecoforecast_app/static/media/usgs.b43b432da10335cdcfd6.png",
+    "static/media/yale.png": "/ecoforecast_app/static/media/yale.87703398b65c9bf78a1c.png",
+    "index.html": "/ecoforecast_app/index.html",
+    "main.cf38db54.css.map": "/ecoforecast_app/static/css/main.cf38db54.css.map",
+    "main.68779681.js.map": "/ecoforecast_app/static/js/main.68779681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf38db54.css",
+    "static/js/main.68779681.js"
+  ]
+}
