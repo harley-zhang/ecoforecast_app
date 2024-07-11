@@ -36,8 +36,13 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="/research">
-                                Research
+                            <a
+                                href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2394"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center"
+                            >
+                                Research  <GoArrowUpRight size={13} className="ml-1" />
                             </a>
                         </li>
                     </ul>

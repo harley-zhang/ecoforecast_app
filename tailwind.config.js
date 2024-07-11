@@ -8,6 +8,7 @@ module.exports = {
         blue: "#1a73e8",
         greydark: "#444",
         grey: "#9c9c9c",
+        greymd: "#ebebeb",
         greylight: "#fafafa",
       },
       fontFamily: {
@@ -24,7 +25,6 @@ module.exports = {
       xs: "480px",
       sm: "768px",
       md: "1130px",
-      lg: "1400px",
     }
   },
   plugins: [],

@@ -11,7 +11,7 @@ const Landing = () => {
             <div className="absolute inset-0 bg-black bg-opacity-35"></div>
 
             {/* LANDING TEXT */}
-            <div className="z-30 text-left mx-auto px-5 sm:px-10 md:px-5 md:w-[1088px]">
+            <div className="z-30 text-left mx-auto px-5 sm:px-10 md: md:w-[1088px]">
                 <div>
                     <p className="text-white font-product-sans-light-regular text-3xl sm:text-4xl md:text-5xl font-helvetica tracking-wide z-10">
                         Earth Sciences for Environmental Stewards & Land Managers
