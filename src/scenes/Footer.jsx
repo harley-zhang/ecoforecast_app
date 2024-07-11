@@ -32,7 +32,7 @@ const Footer = () => {
                     <ul>
                         <li className="mb-4">
                             <a href="/stepwat2">
-                                STEPWAT2
+                                About STEPWAT2
                             </a>
                         </li>
                         <li>

@@ -31,15 +31,15 @@ const Navbar = () => {
                         href="/app"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-product-sans-light-regular text-[.85rem] sm:text-sm tracking-wide flex items-center bg-blue hover:opacity-90 transition-all duration-300 text-white px-3 sm:px-4 py-2 rounded-full"
+                        className="font-product-sans-light-regular text-sm tracking-wide flex items-center bg-blue hover:opacity-90 transition-all duration-300 text-white px-3 sm:px-4 py-2 rounded-full"
                     >
                         {isAboveSmallScreens ? "Launch app" : "Launch"}
                         <GoArrowUpRight className="ml-1" />
                     </a>
-                    <a href="/getting-started" className="font-product-sans-light-regular tracking-wide text-[.85rem] sm:text-sm">
+                    <a href="/getting-started" className="font-product-sans-light-regular tracking-wide text-sm">
                         Getting started
                     </a>
-                    <a href="/stepwat2" className="font-product-sans-light-regular tracking-wide text-[.85rem] sm:text-sm">
+                    <a href="/stepwat2" className="font-product-sans-light-regular tracking-wide text-sm">
                         {isAboveSmallScreens ? "About STEPWAT2" : "STEPWAT2"}
                     </a>
                 </div>

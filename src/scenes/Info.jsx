@@ -121,7 +121,7 @@ const Info = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 md:order-2">
-                            <div className="w-full overflow-hidden h-full">
+                            <div className="w-full overflow-hidden h-[calc(100vw-40px)]">
                                 <img src={meetEcoForecast} alt="Satellite view" className="w-full h-full object-cover rounded-b-lg" />
                             </div>
                         </div>
@@ -148,7 +148,7 @@ const Info = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 md:order-2">
-                            <div className="w-full overflow-hidden h-full">
+                            <div className="w-full overflow-hidden h-[calc(100vw-40px)]">
                                 <img src={aboutStepwat} alt="Sagebrush ecosystem" className="w-full h-full object-cover rounded-b-lg" />
                             </div>
                         </div>
@@ -176,7 +176,7 @@ const Info = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 md:order-2">
-                            <div className="w-full overflow-hidden h-full">
+                            <div className="w-full overflow-hidden h-[calc(100vw-40px)]">
                                 <img src={backedByScience} alt="Dryland ecosystem field researchers" className="w-full h-full object-cover rounded-b-lg" />
                             </div>
                         </div>
