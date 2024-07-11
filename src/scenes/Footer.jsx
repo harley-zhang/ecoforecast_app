@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="w-48 mb-12">
                     <h3 className="text-grey mb-4">EcoForecast</h3>
                     <ul>
-                        <li className="mb-4 text-black">
+                        <li className="mb-4">
                             <a
                                 href="/app"
                                 target="_blank"
@@ -28,9 +28,9 @@ const Footer = () => {
 
                 {/* Column 2: Supporting Resources */}
                 <div className="w-48 mb-12">
-                    <h3 className="text-grey mb-4">Supporting Resources</h3>
+                    <h3 className="text-grey mb-4">Supporting resources</h3>
                     <ul>
-                        <li className="mb-4 text-black">
+                        <li className="mb-4">
                             <a href="/stepwat2">
                                 STEPWAT2
                             </a>
@@ -52,14 +52,19 @@ const Footer = () => {
                 <div className="w-48 mb-12">
                     <h3 className="text-grey mb-4">Terms & policies</h3>
                     <ul>
-                        <li className="mb-4 text-black">
+                        <li className="mb-4">
                             <a href="/terms">
                                 Terms of use
                             </a>
                         </li>
-                        <li>
+                        <li className="mb-4">
                             <a href="/privacy">
                                 Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Contact">
+                                Contact
                             </a>
                         </li>
                     </ul>

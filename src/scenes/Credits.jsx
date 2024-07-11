@@ -70,7 +70,7 @@ const Credits = () => {
     return (
         <div ref={ref} className="mt-20">
             <div className="sm:mb-10">
-                <h2 className="text-center text-lg sm:text-xl mb-7 text-greydark font-product-sans-regular">Made Possible By</h2>
+                <h2 className="text-center text-lg sm:text-xl mb-7 text-greydark font-product-sans-regular">Made possible by</h2>
                 <motion.div
                     className="flex flex-wrap justify-center items-center px-5 md:px-0 pb-6"
                     initial="hidden"
@@ -101,7 +101,7 @@ const Credits = () => {
                 </motion.div>
             </div>
             <div>
-                <h2 className="text-center text-lg sm:text-xl mb-7 text-greydark font-product-sans-regular">Powered By</h2>
+                <h2 className="text-center text-lg sm:text-xl mb-7 text-greydark font-product-sans-regular">Powered by</h2>
                 <motion.div
                     className="flex flex-wrap justify-center items-center px-5 md:px-0 pb-6"
                     initial="hidden"
