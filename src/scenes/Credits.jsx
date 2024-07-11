@@ -94,7 +94,7 @@ const Credits = () => {
                                 className="w-[75px] md:w-[90px] mx-auto"
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 1, delay: 0.2 * index + 0.1 }}
+                                transition={{ duration: 1, delay: 0.3 * index + 0.2 }}
                             />
                         </a>
                     ))}
@@ -125,7 +125,7 @@ const Credits = () => {
                                 className="w-20 xs:w-28 sm:w-32 mx-auto"
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 1, delay: 0.2 * index + 0.1 }}
+                                transition={{ duration: 1, delay: 0.3 * index + 0.2 }}
                             />
                         </a>
                     ))}
