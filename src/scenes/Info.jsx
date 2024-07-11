@@ -1,4 +1,5 @@
 import { GoArrowUpRight } from "react-icons/go";
+import { HiChevronRight } from "react-icons/hi2";
 import meetEcoForecast from "../assets/satellite.png";
 import aboutStepwat from "../assets/sagebrush.png";
 import backedByScience from "../assets/field-research.png";
@@ -29,11 +30,11 @@ const Info = () => {
                                         rel="noopener noreferrer"
                                         className="flex items-center relative group"
                                     >
-                                        Launch App <GoArrowUpRight size={15} className="ml-1" />
+                                        Launch app <GoArrowUpRight size={15} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
-                                    <a href="/overview" className="relative group">
-                                        App Overview
+                                    <a href="/overview" className="flex items-center relative group">
+                                        Getting started <HiChevronRight size={14} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
                                 </div>
@@ -50,8 +51,8 @@ const Info = () => {
                                     STEPWAT2 is a simulation model that assesses climate change and disturbance impacts on dryland plant communities. Using a process-based soil water model, it predicts how soil moisture and disturbances alter plant composition and biomass.
                                 </p>
                                 <div className="flex space-x-6 text-sm font-product-sans-light-regular tracking-wide">
-                                    <a href="/stepwat2" className="relative group">
-                                        Use STEPWAT2
+                                    <a href="/stepwat2" className="flex items-center relative group">
+                                        Use STEPWAT2 <HiChevronRight size={14} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
                                     <a href="/overview" className="flex items-center relative group">
@@ -84,7 +85,7 @@ const Info = () => {
                                         rel="noopener noreferrer"
                                         className="flex items-center relative group"
                                     >
-                                        Read more <GoArrowUpRight size={15} className="ml-1" />
+                                        Read the paper <GoArrowUpRight size={15} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
                                 </div>
@@ -109,11 +110,11 @@ const Info = () => {
                                         rel="noopener noreferrer"
                                         className="flex items-center group relative"
                                     >
-                                        Launch App <GoArrowUpRight size={15} className="ml-1" />
+                                        Launch app <GoArrowUpRight size={15} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
-                                    <a href="/overview" className="relative group">
-                                        App Overview
+                                    <a href="/getting-started" className="flex items-center relative group">
+                                        Getting started <HiChevronRight size={14} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
                                 </div>
@@ -135,8 +136,8 @@ const Info = () => {
                                     STEPWAT2 is a simulation model that assesses climate change and disturbance impacts on dryland plant communities. Using a process-based soil water model, it predicts how soil moisture and disturbances alter plant composition and biomass.
                                 </p>
                                 <div className="flex space-x-6 text-sm font-product-sans-light-regular tracking-wide mb-2">
-                                    <a href="/stepwat2" className="relative group">
-                                        Use STEPWAT2
+                                    <a href="/stepwat2" className="flex items-center relative group">
+                                        Use STEPWAT2 <HiChevronRight size={14} className="ml-1" />
                                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                                     </a>
                                     <a href="/overview" className="flex items-center relative group">

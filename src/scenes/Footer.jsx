@@ -15,12 +15,12 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 className="flex items-center"
                             >
-                                Launch App <GoArrowUpRight size={13} className="ml-1" />
+                                Launch app <GoArrowUpRight size={13} className="ml-1" />
                             </a>
                         </li>
                         <li>
-                            <a href="/overview">
-                                App Overview
+                            <a href="/getting-started">
+                                Getting started
                             </a>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@ const Footer = () => {
                         </li>
                         <li className="mb-4">
                             <a href="/privacy">
-                                Privacy Policy
+                                Privacy policy
                             </a>
                         </li>
                         <li>

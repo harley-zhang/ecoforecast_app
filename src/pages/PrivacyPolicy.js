@@ -1,11 +1,14 @@
 import React from 'react';
 import Navbar from '../scenes/Navbar';
 import Footer from '../scenes/Footer';
-
+import { Helmet } from 'react-helmet-async';
 
 const TermsOfUse = () => {
     return (
         <>
+            <Helmet>
+                <title>Privacy policy | EcoForecast</title>
+            </Helmet>
             <Navbar />
             <div className="sm:w-[750px] mx-auto px-5">
                 <p className="text-sm mt-36  text-grey text-center"><span className="font-product-sans-medium-regular">Effective: </span><span className="font-product-sans-light-regular tracking-wide">July 10, 2024</span></p>
