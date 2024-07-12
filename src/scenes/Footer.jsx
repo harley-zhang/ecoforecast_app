@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const Footer = () => {
     return (
         <footer className="pt-24 pb-10">
-            <div className="mx-auto px-5 sm:px-10 md:px-5 md:w-[1000px] flex flex-wrap justify-start items-start text-sm font-product-sans-light-regular tracking-wide">
+            <div className="mx-auto px-5 sm:px-10 md:px-5 md:w-[1088px] flex flex-wrap justify-start items-start text-sm font-product-sans-light-regular tracking-wide">
                 {/* Column 1: EcoForecast */}
                 <div className="w-48 mb-12">
                     <h3 className="text-grey mb-4">EcoForecast</h3>
