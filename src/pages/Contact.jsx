@@ -44,19 +44,19 @@ const Contact = () => {
                         <h2 className="text-2xl mb-8 text-center">Contact</h2>
                         <div className="mb-8">
                             <label className="block mb-1" htmlFor="name">Name *</label>
-                            <input type="text" className="w-full border border-gray-300 rounded-md p-2" id="name" name="name" required />
+                            <input type="text" className="w-full border-grey rounded-md p-2 focus:border-black border focus:outline-none transition duration-300" id="name" name="name" required />
                         </div>
                         <div className="mb-8">
                             <label className="block mb-1" htmlFor="email">Email *</label>
-                            <input type="email" className="w-full border border-gray-300 rounded-md p-2" id="email" name="email" required />
+                            <input type="email" className="w-full border-grey rounded-md p-2 focus:border-black border focus:outline-none transition duration-300" id="email" name="email" required />
                         </div>
                         <div className="mb-8">
                             <label className="block mb-1" htmlFor="company">Company</label>
-                            <input type="text" className="w-full border border-gray-300 rounded-md p-2" id="company" name="company" />
+                            <input type="text" className="w-full border-grey rounded-md p-2 focus:border-black border focus:outline-none transition duration-300" id="company" name="company" />
                         </div>
                         <div className="mb-8">
                             <label className="block mb-1" htmlFor="message">Message *</label>
-                            <textarea className="w-full border border-gray-300 rounded-md p-2 h-52 resize-none" id="message" name="message" required />
+                            <textarea className="w-full border-grey rounded-md p-2 h-52 resize-none focus:border-black border-2 focus:outline-none transition duration-300" id="message" name="message" required />
                         </div>
                         <button type="submit" className="bg-black rounded-full hover:bg-opacity-90 transition-all duration-300 text-white px-6 py-3">Submit</button>
                     </form>
