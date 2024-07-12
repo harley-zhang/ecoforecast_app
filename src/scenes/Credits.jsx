@@ -1,11 +1,11 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
-import yale from '../assets/logos/yale.png';
-import usgs from '../assets/logos/usgs.png';
-import marshall from '../assets/logos/marshall.png';
-import utah from '../assets/logos/utah-state.png';
-import gee from '../assets/logos/google-earth-engine.png';
-import stepwat2 from '../assets/logos/stepwat2.png';
+import yale from '../assets/Home/logos/yale.png';
+import usgs from '../assets/Home/logos/usgs.png';
+import marshall from '../assets/Home/logos/marshall.png';
+import utah from '../assets/Home/logos/utah-state.png';
+import gee from '../assets/Home/logos/google-earth-engine.png';
+import stepwat2 from '../assets/Home/logos/stepwat2.png';
 import useMediaQuery from '../hooks/useMediaQuery';
 
 const supportLogos = [

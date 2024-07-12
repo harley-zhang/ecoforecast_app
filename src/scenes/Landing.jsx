@@ -1,5 +1,5 @@
 import { GoArrowUpRight } from "react-icons/go";
-import backgroundImg from "../assets/landing-bg.png";
+import backgroundImg from "../assets/Home/landing-bg.png";
 
 const Landing = () => {
     return (

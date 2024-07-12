@@ -1,8 +1,8 @@
 import { GoArrowUpRight } from "react-icons/go";
 import { HiChevronRight } from "react-icons/hi2";
-import meetEcoForecast from "../assets/satellite.png";
-import aboutStepwat from "../assets/sagebrush.png";
-import backedByScience from "../assets/field-research.png";
+import meetEcoForecast from "../assets/Home/satellite.png";
+import aboutStepwat from "../assets/Home/sagebrush.png";
+import backedByScience from "../assets/Home/field-research.png";
 import useMediaQuery from '../hooks/useMediaQuery';
 
 const Info = () => {
