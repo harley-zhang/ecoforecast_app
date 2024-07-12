@@ -21,7 +21,7 @@ const LaunchApp = () => {
                 {!isLargeEnough && (
                     <div className="relative h-screen w-screen overflow-hidden">
                         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-lightgrey z-50">
-                            <div className="bg-greylight p-6 m-5 rounded border border-[#e0e0e0] text-greydark text-center font-roboto">
+                            <div className="bg-greylight p-6 m-5 rounded border border-[#e0e0e0] text-greydark text-center font-product-sans-light-regular tracking-wide">
                                 <p>EcoForecast requires a minimum screen size of 1109×468px.</p>
                             </div>
                         </div>
