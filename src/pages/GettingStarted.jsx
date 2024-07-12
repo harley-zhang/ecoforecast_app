@@ -11,6 +11,7 @@ import Rectangle from "../assets/GettingStarted/rectangle.png";
 import Download from "../assets/GettingStarted/download.png";
 import DataViewer from "../assets/GettingStarted/data-viewer.png";
 import Manager from "../assets/GettingStarted/manager.png";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const GettingStarted = () => {
     return (
@@ -156,8 +157,9 @@ const GettingStarted = () => {
                         <div className="w-1/2 bg-greymd p-[5vw] md:p-16 rounded-l-lg h-full flex flex-col justify-center">
                             <h3 className="text-base md:text-xl font-product-sans-regular mb-4 md:mb-8 text-grey">Data viewer</h3>
                             <p className="text-base md:text-xl tracking-wide font-product-sans-light-regular mb-4 md:mb-8">
-                                STEPWAT2 is a simulation model that assesses climate change and disturbance impacts on dryland plant communities. Using a process-based soil water model, it predicts how soil moisture and disturbances alter plant composition and biomass.
-                            </p>
+                                Use the data viewer to either click a data point on the map or enter the coordinates of a point to see the data for all selected layers. Use the&nbsp;
+                                <FaArrowUpRightFromSquare size={17} className="inline-block pb-[3px]" />
+                                &nbsp;button to view the full size chart or download it as a CSV, SVG, or PNG.                            </p>
                         </div>
                         <div className="w-1/2 overflow-hidden">
                             <img src={DataViewer} alt="Sagebrush ecosystem" className="w-full h-full object-cover rounded-r-lg" />
