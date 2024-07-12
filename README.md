@@ -4,23 +4,18 @@
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
   <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
   <img src="https://img.shields.io/badge/Google%20Earth%20Engine-%234285F4.svg?style=for-the-badge&logo=googleearthengine&logoColor=white"/>
-  <br><br>
 </div>
 
 <br>
 
 ## Overview
 
-[EcoForecast](https://ecoforecast.info/) is a web application that allows users to visualize and analyze future ecological changes in the sagebrush habitat across the United States. The app utilizes data generated using the [STEPWAT2 simulation model](https://github.com/DrylandEcology/STEPWAT2) and is built using [Google Earth Engine (GEE) JavaScript API](https://developers.google.com/earth-engine) for geospatial analysis and remote sensing. 
-
-To clone this repository:
-
-    git clone https://github.com/harley-zhang/EcoForecast_App
+[EcoForecast](https://ecoforecast.info/) is a web application that allows users to visualize and analyze future ecological changes in the sagebrush habitat across the United States. The app utilizes data generated using the [STEPWAT2 simulation model](https://github.com/DrylandEcology/STEPWAT2) and is built using React and [Google Earth Engine (GEE) JavaScript API](https://developers.google.com/earth-engine). 
 
 <br>
 
 
-## Features
+## App Features
 
 - **Comprehensive Dataset:** The app is powered by a comprehensive dataset covering the entire sagebrush habitat in the United States for various climate, plant, soil, and water parameters over the next century.
 
@@ -32,12 +27,10 @@ To clone this repository:
 
 <br>
 
-## Currently working on...
+## Pages
 
-- **Info sections:** Allows user to open and close a small, light explanation tab for different parameters.
+- **Home Page:** Includes info about EcoForecast, supporting research, and affiliated organizations.
 
-- **Guided app tour:** A feature that takes first-time users on a (skippable) guided tour of the apps features.
+- **Getting Started:** Overview of how to start using the EcoForecast app.
 
-- **Contextual website:** A website centered around the app that provides additional info on STEPWAT2, the app functionality, updates, and significant findings in related fields.
-
-- **UI updates:** Improving UI elements like animations, logos, fonts, color schemes, etc.
+- **About STEPWAT2:** A brief overview of the model's validation and application and links to it's paper.
