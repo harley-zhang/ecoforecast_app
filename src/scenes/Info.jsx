@@ -72,7 +72,7 @@ const Info = () => {
                     <div className="flex items-center my-24 h-0 pb-[50%] md:h-[544px] relative">
                         <div className="absolute inset-0 flex w-full h-full">
                             <div className="w-1/2 overflow-hidden">
-                                <img src={backedByScience} alt="Image 1" className="w-full h-full object-cover rounded-l-lg" />
+                                <img src={backedByScience} alt="Dryland ecosystem field researchers" className="w-full h-full object-cover rounded-l-lg" />
                             </div>
                             <div className="w-1/2 bg-greymd p-[5vw] md:p-16 rounded-r-lg h-full flex flex-col justify-center">
                                 <h3 className="text-base md:text-xl font-product-sans-regular mb-4 md:mb-8 text-grey">Backed by science</h3>
