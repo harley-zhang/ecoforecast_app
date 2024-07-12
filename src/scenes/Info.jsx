@@ -12,6 +12,7 @@ const Info = () => {
         <div className="mx-auto px-5 sm:px-10 md:px-5 md:w-[1088px]">
             {isAboveSmallScreens ? (
                 <div>
+                    {/*** DESKTOP VIEW ***/}
                     {/* Meet EcoForecast */}
                     <div className="flex items-center my-24 h-0 pb-[50%] md:h-[544px] relative">
                         <div className="absolute inset-0 flex w-full h-full">
@@ -80,7 +81,7 @@ const Info = () => {
                                 </p>
                                 <div className="flex space-x-6 text-sm font-product-sans-light-regular tracking-wide">
                                     <a
-                                        href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2394"
+                                        href="https://doi.org/10.1002/ecs2.2394"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center relative group"
@@ -94,9 +95,10 @@ const Info = () => {
                     </div>
                 </div>
             ) : (
-                <div>
+                < div >
+                    {/*** MOBILE VIEW ***/}
                     {/* Meet EcoForecast */}
-                    <div className="flex flex-col items-center my-12 relative">
+                    < div className="flex flex-col items-center my-12 relative">
                         <div className="w-full">
                             <div className="bg-greymd p-[6vw] sm:p-[6vw] rounded-t-lg flex flex-col justify-center">
                                 <h3 className="text-base font-product-sans-regular mb-4 text-grey">Meet EcoForecast</h3>
@@ -164,7 +166,7 @@ const Info = () => {
                                 </p>
                                 <div className="flex space-x-6 text-sm font-product-sans-light-regular tracking-wide mb-2">
                                     <a
-                                        href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2394"
+                                        href="https://doi.org/10.1002/ecs2.2394"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center relative group"
@@ -181,11 +183,11 @@ const Info = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div >
             )
             }
 
-        </div>
+        </div >
     );
 };
 

@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# EcoForecast App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+  <img src="https://img.shields.io/badge/Google%20Earth%20Engine-%234285F4.svg?style=for-the-badge&logo=googleearthengine&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+</div>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+[EcoForecast](https://ecoforecast.info/) is a web application that allows users to visualize and analyze future ecological changes in the sagebrush habitat across the United States. The app utilizes data generated using the [STEPWAT2 simulation model](https://github.com/DrylandEcology/STEPWAT2) and is built using [Google Earth Engine (GEE) JavaScript API](https://developers.google.com/earth-engine) for geospatial analysis and remote sensing. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To clone this repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    git clone https://github.com/harley-zhang/EcoForecast_App
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Comprehensive Dataset:** The app is powered by a comprehensive dataset covering the entire sagebrush habitat in the United States for various climate, plant, soil, and water parameters over the next century.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **User-Friendly Interface:** EcoForecast provides a user-friendly interface that allows users to easily visualize and analyze ecological changes in their area of interest with just a few clicks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Parameter Selection:** Users can customize their analysis by selecting relevant parameters such as functional plant group, time period, wildfire levels, and representative concentration pathway (climate scenarios based on greenhouse gas trajectories).
 
-### `npm run eject`
+- **Map Visualization:** The selected data is displayed on an interactive map, making it easy for users to interpret and analyze ecological changes over time.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Currently working on...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Info sections:** Allows user to open and close a small, light explanation tab for different parameters.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Guided app tour:** A feature that takes first-time users on a (skippable) guided tour of the apps features.
 
-## Learn More
+- **Contextual website:** A website centered around the app that provides additional info on STEPWAT2, the app functionality, updates, and significant findings in related fields.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **UI updates:** Improving UI elements like animations, logos, fonts, color schemes, etc.

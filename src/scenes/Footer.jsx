@@ -37,7 +37,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <a
-                                href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2394"
+                                href="https://doi.org/10.1002/ecs2.2394"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center"

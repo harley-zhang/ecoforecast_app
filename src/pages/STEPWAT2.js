@@ -17,13 +17,13 @@ const STEPWAT2 = () => {
                 </div>
                 <div className="flex flex-col items-center mt-8 space-y-6 xs:space-y-0 xs:flex-row xs:justify-center xs:space-x-5">
                     <a
-                        href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2394"
+                        href="https://doi.org/10.1002/ecs2.2394"
                         className="font-product-sans-light-regular text-[.85rem] sm:text-sm tracking-wide flex items-center bg-black hover:opacity-90 transition-all duration-300 text-white px-5 py-2 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Read the paper
-                        <GoArrowUpRight className="ml-1" />
+                        <GoArrowUpRight size={15} className="ml-1" />
                     </a>
                     <a
                         href="https://github.com/DrylandEcology/STEPWAT2"
@@ -32,7 +32,7 @@ const STEPWAT2 = () => {
                         rel="noopener noreferrer"
                     >
                         Run STEPWAT2
-                        <GoArrowUpRight className="ml-1" />
+                        <GoArrowUpRight size={15} className="ml-1" />
                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                     </a>
                     <a
@@ -42,40 +42,8 @@ const STEPWAT2 = () => {
                         rel="noopener noreferrer"
                     >
                         Run the R program
-                        <GoArrowUpRight className="ml-1" />
+                        <GoArrowUpRight size={15} className="ml-1" />
                         <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                    </a>
-                </div>
-                {/* USE ON OVERVIEW */}
-                <div className="flex justify-center mt-8">
-                    <a
-                        href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2394"
-                        className="font-product-sans-light-regular text-[.85rem] sm:text-sm tracking-wide flex items-center bg-black hover:opacity-90 transition-all duration-300 text-white px-5 py-2 rounded-full mr-5"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Read the paper
-                        <GoArrowUpRight className="ml-1" />
-                    </a>
-                    <a
-                        href="https://github.com/DrylandEcology/STEPWAT2"
-                        className="font-product-sans-light-regular text-[.85rem] sm:text-sm tracking-wide flex items-center relative group mr-5"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Run STEPWAT2
-                        <GoArrowUpRight className="ml-1" />
-                        <span className="absolute left-0 bottom-[4px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                    </a>
-                    <a
-                        href="https://github.com/DrylandEcology/rSFSTEP2"
-                        className="font-product-sans-light-regular text-[.85rem] sm:text-sm tracking-wide flex items-center relative group"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Run the R program
-                        <GoArrowUpRight className="ml-1" />
-                        <span className="absolute left-0 bottom-[4px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                     </a>
                 </div>
 
