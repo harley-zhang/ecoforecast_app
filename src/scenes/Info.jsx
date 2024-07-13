@@ -1,9 +1,9 @@
-import { GoArrowUpRight } from "react-icons/go";
-import { HiChevronRight } from "react-icons/hi2";
+import useMediaQuery from "../hooks/useMediaQuery";
 import meetEcoForecast from "../assets/Home/satellite.png";
 import aboutStepwat from "../assets/Home/sagebrush.png";
 import backedByScience from "../assets/Home/field-research.png";
-import useMediaQuery from '../hooks/useMediaQuery';
+import { GoArrowUpRight } from "react-icons/go";
+import { HiChevronRight } from "react-icons/hi2";
 
 const Info = () => {
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
@@ -78,7 +78,7 @@ const Info = () => {
                             <div className="w-1/2 bg-greylight p-[5vw] md:p-16 rounded-r-lg h-full flex flex-col justify-center">
                                 <h3 className="text-base md:text-xl font-product-sans-regular mb-4 md:mb-8 text-grey">Backed by science</h3>
                                 <p className="text-base md:text-xl tracking-wide font-product-sans-light-regular mb-4 md:mb-8">
-                                    STEPWAT2 was validated using field data from 15 big sagebrush sites. Simulated big sagebrush biomass correlated with field measurements and simulated densities match field data. Total shrub and herbaceous biomass simulations are within one standard deviation of field measurements, demonstrating the model's accuracy.
+                                    STEPWAT2 was validated using field data from 15 big sagebrush sites. Simulated big sagebrush biomass correlated with field measurements and simulated densities match field data. Total shrub and herbaceous biomass simulations are within one standard deviation of field measurements, demonstrating the model"s accuracy.
                                 </p>
                                 <div className="flex space-x-6 text-sm font-product-sans-light-regular tracking-wide">
                                     <a
@@ -164,7 +164,7 @@ const Info = () => {
                             <div className="bg-greylight p-[6vw] rounded-t-lg flex flex-col justify-center">
                                 <h3 className="text-base font-product-sans-regular mb-4 text-grey">Backed by science</h3>
                                 <p className="text-base tracking-wide font-product-sans-light-regular mb-4">
-                                    STEPWAT2 was validated using field data from 15 big sagebrush sites. Simulated big sagebrush biomass correlated with field measurements and simulated densities match field data. Total shrub and herbaceous biomass simulations are within one standard deviation of field measurements, demonstrating the model's accuracy.
+                                    STEPWAT2 was validated using field data from 15 big sagebrush sites. Simulated big sagebrush biomass correlated with field measurements and simulated densities match field data. Total shrub and herbaceous biomass simulations are within one standard deviation of field measurements, demonstrating the model"s accuracy.
                                 </p>
                                 <div className="flex space-x-6 text-sm font-product-sans-light-regular tracking-wide mb-2">
                                     <a

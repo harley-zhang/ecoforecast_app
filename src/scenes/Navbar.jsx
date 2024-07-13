@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { GoArrowUpRight } from "react-icons/go";
-import logo from "../assets/logo-shadow-notext.png";
 import useMediaQuery from "../hooks/useMediaQuery";
+import logo from "../assets/logo-shadow-notext.png";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
@@ -20,7 +20,7 @@ const Navbar = () => {
     }, [prevScrollPos]);
 
     return (
-        <nav className={`bg-white z-40 w-full fixed top-0 py-2 transition-transform duration-300 ${visible ? 'delay-100' : 'delay-100 -translate-y-full'}`}>
+        <nav className={`bg-white z-40 w-full fixed top-0 py-2 transition-transform duration-300 ${visible ? "delay-100" : "delay-100 -translate-y-full"}`}>
             <div className="flex items-center justify-between mx-auto px-5 sm:px-10 md:px-5 md:w-[1088px]">
                 <a href="/" className="flex items-center space-x-2">
                     <img src={logo} alt="ecoforecast-logo" className="h-8 sm:h-10 z-50 pr-1" />

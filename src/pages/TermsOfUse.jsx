@@ -1,6 +1,6 @@
-import Navbar from '../scenes/Navbar';
-import Footer from '../scenes/Footer';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
+import Navbar from "../scenes/Navbar";
+import Footer from "../scenes/Footer";
 
 const TermsOfUse = () => {
     return (

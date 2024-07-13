@@ -1,11 +1,11 @@
-import { GoArrowUpRight } from "react-icons/go";
 import backgroundImg from "../assets/Home/landing-bg.png";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Landing = () => {
     return (
         <section
             className="relative flex items-center h-[30rem] md:h-[40rem] sm:h-[34rem] pb-20 sm:pb-10 pt-32 sm:pt-20"
-            style={{ backgroundImage: `url(${backgroundImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+            style={{ backgroundImage: `url(${backgroundImg})`, backgroundSize: "cover", backgroundPosition: "center" }}
         >
             {/* BLACK OVERLAY */}
             <div className="absolute inset-0 bg-black bg-opacity-35"></div>

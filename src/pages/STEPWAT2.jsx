@@ -1,7 +1,7 @@
-import Navbar from '../scenes/Navbar';
-import Footer from '../scenes/Footer';
-import { Helmet } from 'react-helmet-async';
-import { GoArrowUpRight } from 'react-icons/go';
+import { Helmet } from "react-helmet-async";
+import Navbar from "../scenes/Navbar";
+import Footer from "../scenes/Footer";
+import { GoArrowUpRight } from "react-icons/go";
 
 const STEPWAT2 = () => {
     return (

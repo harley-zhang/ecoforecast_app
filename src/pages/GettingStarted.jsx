@@ -1,8 +1,7 @@
-import Navbar from '../scenes/Navbar';
-import Footer from '../scenes/Footer';
-import { Helmet } from 'react-helmet-async';
-import { GoArrowUpRight } from 'react-icons/go';
-import { HiChevronRight } from "react-icons/hi2";
+import { Helmet } from "react-helmet-async";
+import useMediaQuery from "../hooks/useMediaQuery";
+import Navbar from "../scenes/Navbar";
+import Footer from "../scenes/Footer";
 import PlantFunctional from "../assets/GettingStarted/plant-functional.png";
 import TimePeriod from "../assets/GettingStarted/time-period.png";
 import GrazingWildfire from "../assets/GettingStarted/grazing-wildfire.png";
@@ -11,8 +10,9 @@ import Rectangle from "../assets/GettingStarted/rectangle.png";
 import Download from "../assets/GettingStarted/download.png";
 import DataViewer from "../assets/GettingStarted/data-viewer.png";
 import Manager from "../assets/GettingStarted/manager.png";
+import { GoArrowUpRight } from "react-icons/go";
+import { HiChevronRight } from "react-icons/hi2";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import useMediaQuery from '../hooks/useMediaQuery';
 
 const GettingStarted = () => {
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");

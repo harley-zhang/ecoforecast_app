@@ -1,46 +1,46 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
-import yale from '../assets/Home/logos/yale.png';
-import usgs from '../assets/Home/logos/usgs.png';
-import marshall from '../assets/Home/logos/marshall.png';
-import utah from '../assets/Home/logos/utah-state.png';
-import gee from '../assets/Home/logos/google-earth-engine.png';
-import stepwat2 from '../assets/Home/logos/stepwat2.png';
-import useMediaQuery from '../hooks/useMediaQuery';
+import useMediaQuery from "../hooks/useMediaQuery";
+import yale from "../assets/Home/logos/yale.png";
+import usgs from "../assets/Home/logos/usgs.png";
+import marshall from "../assets/Home/logos/marshall.png";
+import utah from "../assets/Home/logos/utah-state.png";
+import gee from "../assets/Home/logos/google-earth-engine.png";
+import stepwat2 from "../assets/Home/logos/stepwat2.png";
 
 const supportLogos = [
     {
         url: yale,
-        alt: 'Yale School of the Environment',
-        link: 'https://environment.yale.edu/',
+        alt: "Yale School of the Environment",
+        link: "https://environment.yale.edu/",
     },
     {
         url: usgs,
-        alt: 'USGS',
-        link: 'https://www.usgs.gov/',
+        alt: "USGS",
+        link: "https://www.usgs.gov/",
     },
     {
         url: marshall,
-        alt: 'Marshall University',
-        link: 'https://www.marshall.edu/',
+        alt: "Marshall University",
+        link: "https://www.marshall.edu/",
     },
     {
         url: utah,
-        alt: 'Utah State University',
-        link: 'https://www.usu.edu/',
+        alt: "Utah State University",
+        link: "https://www.usu.edu/",
     },
 ];
 
 const poweredLogos = [
     {
         url: gee,
-        alt: 'Google Earth Engine',
-        link: 'https://earthengine.google.com/',
+        alt: "Google Earth Engine",
+        link: "https://earthengine.google.com/",
     },
     {
         url: stepwat2,
-        alt: 'STEPWAT2',
-        link: 'https://github.com/DrylandEcology/STEPWAT2',
+        alt: "STEPWAT2",
+        link: "https://github.com/DrylandEcology/STEPWAT2",
     },
 ];
 
@@ -55,7 +55,7 @@ const Credits = () => {
             if (sectionRef) {
                 const topPos = sectionRef.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
-                
+
                 // Check if section is in view
                 if (topPos < windowHeight * 0.75) {
                     controls.start("visible");
