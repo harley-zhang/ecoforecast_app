@@ -77,6 +77,8 @@ const GettingStarted = () => {
                                         <a
                                             href="https://cal-adapt.org/help/faqs/which-rcp-scenarios-should-i-use-in-my-analysis/"
                                             className="flex items-center relative group"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                         >
                                             Read more about RCPs <GoArrowUpRight size={15} className="ml-1" />
                                             <span className="absolute left-0 bottom-[-2px] w-full h-[1px] bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
