@@ -2,8 +2,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-  <img src="https://img.shields.io/badge/Google%20Earth%20Engine-%234285F4.svg?style=for-the-badge&logo=googleearthengine&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google%20Earth%20Engine%20JavaScript%20API-%234285F4.svg?style=for-the-badge&logo=googleearthengine&logoColor=white"/>
 </div>
 
 <br>
