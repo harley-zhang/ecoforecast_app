@@ -13,8 +13,9 @@ const STEPWAT2 = () => {
             <div className="sm:w-[750px] mx-auto px-5">
                 <h1 className="text-3xl xs:text-4xl sm:text-5xl mt-28 xs:mt-32 sm:mt-40 font-product-sans-regular mb-4 text-center">About STEPWAT2</h1>
                 <div className="w-[350px] xs:w-[400px] sm:w-[500px] mx-auto">
-                    <p className="mt-6 xs:mt-8 font-product-sans-light-regular text-md xs:text-lg sm:text-xl text-center">An individual-based model for exploring the impact of climate and disturbance on dryland plant communities</p>
+                    <p className="mt-6 xs:mt-8 font-product-sans-light-regular text-base xs:text-lg sm:text-xl text-center">An individual-based model for exploring the impact of climate and disturbance on dryland plant communities</p>
                 </div>
+
                 <div className="flex flex-col items-center mt-8 space-y-6 xs:space-y-0 xs:flex-row xs:justify-center xs:space-x-5">
                     <a
                         href="https://doi.org/10.1002/ecs2.2394"
@@ -65,7 +66,6 @@ const STEPWAT2 = () => {
                 </p>
                 <p className="mt-4 xs:mt-6 font-product-sans-light-regular text-lg">
                     The STEPWAT2 model was employed to simulate plant community dynamics across the 15 sites under current and future climate scenarios. Simulations were conducted over 300 years with 100 iterations per site, considering variations in fire return intervals and grazing intensities. Model parameters included space allocation, rooting depth distributions, phenological activity, and specific growth characteristics tailored to each plant functional type observed in the field.
-
                 </p>
 
                 <h3 className="text-xl xs:text-2xl font-product-sans-regular mt-8 xs:mt-12 sm:mt-14">

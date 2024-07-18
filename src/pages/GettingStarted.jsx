@@ -104,7 +104,7 @@ const GettingStarted = () => {
                                 </div>
                             </div>
                         </div>
-                        <p className="font-product-sans-light-regular text-md xs:text-lg sm:text-xl text-center">Note that not all combinations of selected layers exist.
+                        <p className="font-product-sans-light-regular text-base xs:text-lg sm:text-xl text-center">Note that not all combinations of selected layers exist.
                         </p>
 
                         {/* AREA OF INTEREST */}
@@ -154,7 +154,7 @@ const GettingStarted = () => {
                                 </div>
                             </div>
                         </div>
-                        <p className="font-product-sans-light-regular text-md xs:text-lg sm:text-xl text-center">Due to the size of images, certain downloads are not possible.
+                        <p className="font-product-sans-light-regular text-base xs:text-lg sm:text-xl text-center">Due to the size of images, certain downloads are not possible.
                         </p>
 
                         {/* FEATURES */}
