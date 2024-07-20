@@ -89,8 +89,8 @@ const STEPWAT2 = () => {
                     <h3 className="text-xl xs:text-2xl font-product-sans-regular mt-8 xs:mt-12 sm:mt-14">
                         References
                     </h3>
-                    <p className="mt-6 xs:mt-8 font-product-sans-light-regular text-[.9rem]">
-                        Palmquist, K. A., J. B. Bradford, T. E. Martyn, D. R. Schlaepfer, and W. K. Lauenroth. 2018. STEPWAT2: an individual-based model for exploring the impact of climate and disturbance on dryland plant communities. <span className="font-product-sans-light-italic">Ecosphere</span> 9(8):e02394. <a href="https://doi.org/10.1002/ecs2.2394" className="underline transition-all duration-300 decoration-grey decoration-1 hover:decoration-black" target="_blank" rel="noopener noreferrer">10.1002/ecs2.2394</a>
+                    <p className="mt-6 xs:mt-8 font-product-sans-light-regular text-[.9rem] no-contextual-alternates">
+                        Palmquist, K. A., J. B. Bradford, T. E. Martyn, D. R. Schlaepfer, and W. K. Lauenroth. 2018. STEPWAT2: an individual-based model for exploring the impact of climate and disturbance on dryland plant communities. <span className="font-product-sans-light-italic">Ecosphere</span> 9(8)e02394. <a href="https://doi.org/10.1002/ecs2.2394" className="underline transition-all duration-300 decoration-grey decoration-1 hover:decoration-black" target="_blank" rel="noopener noreferrer">10.1002/ecs2.2394</a>
                     </p>
                 </div>
             </div>

@@ -3,6 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/** prevents weird styling of font **/
+.no-contextual-alternates {
+  font-variant-ligatures: none;
+  font-feature-settings: "calt" 0;
+}
+
+/** prevents user from selecting **/
+.no-select {
+  user-select: none;
+}
+
 @font-face {
   font-family: 'Product Sans Regular';
   font-style: normal;
