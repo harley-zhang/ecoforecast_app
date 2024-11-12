@@ -9,7 +9,7 @@ const LaunchApp = () => {
             <div className="bg-light-grey">
                 <div className={`relative h-screen w-screen overflow-hidden ${!isLargeEnough ? "hidden" : ""}`}>
                     <embed
-                        src="https://harleyzhang.users.earthengine.app/view/current-sagebrush-biomass-test-app"
+                        src="https://ecoforecast.projects.earthengine.app/view/ecoforecast"
                         title="EcoForecast App"
                         className="h-full w-full border-0"
                     />
